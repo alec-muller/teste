@@ -3,7 +3,6 @@
   "hostRequirements": {
     "cpus": 2
   },
-  "workspaceFolder": "/workspaces/codespace-jupyter",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "chmod +x .devcontainer/setup.sh",
   "postCreateCommand": ".devcontainer/setup.sh > post-create.log",
